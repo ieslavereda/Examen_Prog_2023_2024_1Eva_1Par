@@ -1,7 +1,7 @@
 public class Exercise1 {
     public static void main(String[] args) {
 
-        int numero = -5;
+        int numero = 3;
         switch (numero) {
             case 0:
             case 1:
