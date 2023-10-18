@@ -5,9 +5,9 @@ public class Exercise3 {
 
     public static void printMatrix(int size){
         for (int i = 1; i <= size; i++) {
-            for (int j=1,k=i; j<=size; j++) {
+            for (int j=1; j<=size; j++) {
                 if(i<=j)
-                    System.out.print(k+" ");
+                    System.out.print(i+" ");
                 else
                     System.out.print("0 ");
             }
